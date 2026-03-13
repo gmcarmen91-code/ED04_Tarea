@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package javaapplication9;
+package tarea4;
 
 public class Pruebas {
 
@@ -57,12 +57,12 @@ public class Pruebas {
         return Math.pow(num, 2.0);
     }
 
-    public static double hip(double c1, double catetoB) {
-        return Math.sqrt(alCuadrado(c1) + alCuadrado(catetoB));
+    public static double hipotenusa(double cateto1, double cateto2) {
+        return Math.sqrt(alCuadrado(cateto1) + alCuadrado(cateto2));
     }
 
-    public static double cat(double hipotenusa, double catetoB) {
-        return Math.sqrt(alCuadrado(hipotenusa) - alCuadrado(catetoB));
+    public static double catetoA(double hipotenusa, double cateto) {
+        return Math.sqrt(alCuadrado(hipotenusa) - alCuadrado(cateto));
     }
 
     public static double mphAKmh(double mph) {
